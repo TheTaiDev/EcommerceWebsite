@@ -2,15 +2,14 @@ import React from "react";
 import Head from "./Head";
 import Search from "./Search";
 import Navbar from "./Navbar";
-import "./Header.css"
+import "./Header.css";
 
-const Header = () => {
+const Header = (CartItem) => {
   return (
     <div>
       <Head />
-      <Search />
+      <Search CartItem={CartItem} />
       <Navbar />
-      
     </div>
   );
 };

@@ -21,7 +21,7 @@ const Navbar = () => {
             onClick={() => setMobileMenu(false)}
           >
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/pages">pages</Link>
