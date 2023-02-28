@@ -26,10 +26,15 @@ body {
 }
 .c_flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 a {
   text-decoration: none;
   color: #000;
+}
+.top {
+  margin-top: 80px;
 }
 li {
   list-style: none;
@@ -63,4 +68,47 @@ button {
 }
 .boxShadow {
   box-shadow: rgb(43, 52, 69 / 10%) 0 4px 16px;
+}
+
+/* Categoris */
+.contentWidth {
+  width: 77%;
+}
+.category {
+  width: 23%;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+}
+.category img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.category span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.category .box:hover {
+  background-color: #ffe1ef;
+  cursor: pointer;
+}
+/* End category */
+.btn-primary {
+  background-color: #e94;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+.heading i {
+  color: #e94560;
+  margin: 10px;
 }
