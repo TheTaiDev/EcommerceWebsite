@@ -4,7 +4,11 @@ import FlashDeals from "../flashDeals/FlashDeals";
 import TopCate from "../top/TopCate";
 import NewArrivals from "../newarrivals/NewArrivals";
 import Discount from "../Discount/Discount";
-const page = ({ productItems, CartItem, addToCart }) => {
+import Shop from "../shop/Shop";
+import Annu from "../annocuments/Annu";
+import Footer from "../Footer/Footer";
+import Wrapper from "../Wrapper/Wrapper";
+const page = ({ productItems, CartItem, addToCart, shopItems }) => {
   return (
     <div>
       <Home CartItem={CartItem} />
@@ -12,6 +16,10 @@ const page = ({ productItems, CartItem, addToCart }) => {
       <TopCate />
       <NewArrivals />
       <Discount />
+      <Shop shopItems={shopItems} addToCart={addToCart} />
+      <Annu />
+      <Wrapper />
+      <Footer />
     </div>
   );
 };
