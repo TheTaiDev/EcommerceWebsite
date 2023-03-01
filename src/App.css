@@ -212,3 +212,6 @@ button {
   color: #fff;
   margin: 10px;
 }
+.no-items {
+  text-align: center;
+}
