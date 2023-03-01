@@ -7,11 +7,11 @@ const TopCate = () => {
       <section className="topCat background">
         <div className="container">
           <div className="heading d_flex">
-            <div className="heading-feft row f_fex">
-              <i className="fa fa-bars"></i>
+            <div className="heading-feft row f_flex">
+              <i className="fa fa"></i>
               <h2>Top Categories</h2>
             </div>
-            <div className="heading-right row">
+            <div className="heading-right ">
               <span>View All</span>
               <i className="fa fa-caret-right"></i>
             </div>
